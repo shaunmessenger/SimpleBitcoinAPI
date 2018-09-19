@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>BITCOIN PRICE API</title>
+    <link rel="stylesheet" type="text/css" href="bitcoinapi.css">
+
+</head>
+
+<body>
+    <div id="imageContainer">
+        <img src="https://en.bitcoin.it/w/images/en/2/29/BC_Logo_.png" />
+    </div>
+    <h1>The price of Bitcoin is: <span id="price"></span></h1>
+    <div>
+        <div id="radioContainer">
+            <div>
+                <input type="radio" name="currency" id="USD" checked="true" />
+                <label for="USD"> USD</label>
+            </div>
+            <div>
+                <input type="radio" name="currency" id="GBP" />
+                <label for="GBP"> GBP</label>
+            </div>
+            <div>
+                <input type="radio" name="currency" id="EUR" />
+                <label for="EUR"> EUR</label>
+            </div>
+            <button id="btn" type="button">Get Price</button>
+            <script src="bitcoinapi.js"></script>
+</body>
+
+</html>
